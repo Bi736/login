@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #98b1e6;
+
+}
+
+
+.middle{
+    background-color: #0f1e3e;
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 0px auto;
+    position: relative;
+    max-width: 100%;
+    z-index: 0;
+    display: block;
+    text-align: center;
+}
+
+.first{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    margin: 100px auto;
+    
+}
+
+
+ .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid #142952 ;
+    border-left: 200px solid transparent;
+    border-right: 200px solid #142952 ;
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+}
+
+.form {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+
+
+
+.form h1{text-align: center;
+    display: block;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+i#facebook {
+    margin: 0 px;
+    font-size: 25px;
+    padding: 5px 5px;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.one {
+    margin: 10px;
+}
+.two {
+    margin: 10px;
+}
+
+
+.button {
+    margin-top: 15px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+.hero-btn {
+    text-align: center;
+    margin-top: 15px;
+}
+a {
+    padding: 6px 30px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    border-radius: 20px;
+}
+
+.next{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 500px;
+}
+
+
+
+input#fullname {
+    padding: 10px 50px;
+    background-color: rgb(217, 217, 217);
+    opacity: 80%;
+}
+input#password {
+    padding: 10px 50px;
+    background-color: rgb(217, 217, 217);
+    opacity: 80%;
+}
+.middle h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: 35px;
+    word-spacing: 8px;
+    border-bottom: 3px solid white;
+    margin-left: 140px;
+    margin-right: 140px;
+}
