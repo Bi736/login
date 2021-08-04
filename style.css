@@ -130,12 +130,12 @@ a {
 input#fullname {
     padding: 10px 50px;
     background-color: rgb(217, 217, 217);
-    opacity: 80%;
+    opacity: 65%;
 }
 input#password {
     padding: 10px 50px;
     background-color: rgb(217, 217, 217);
-    opacity: 80%;
+    opacity: 65%;
 }
 .middle h1 {
     font-size: 30px;
